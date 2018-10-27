@@ -5,7 +5,7 @@ def display_board
   divider = "|"
   demarcator = ""
   11.times { demarcator << "-" }
-  row = cell + divider + cell + divider
+  row = cell + divider + cell + divider + cell
 
   puts row
   puts demarcator
